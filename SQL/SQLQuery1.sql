@@ -1,0 +1,6 @@
+USE [master]
+GO
+ALTER LOGIN [sa] WITH PASSWORD = 'hammad'
+GO
+ALTER LOGIN [sa] ENABLE
+GO

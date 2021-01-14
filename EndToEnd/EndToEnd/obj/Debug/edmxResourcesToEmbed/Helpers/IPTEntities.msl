@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IPTModelStoreContainer" CdmEntityContainer="IPTEntities">
+    <EntitySetMapping Name="Std_Table">
+      <EntityTypeMapping TypeName="IPTModel.Std_Table">
+        <MappingFragment StoreEntitySet="Std_Table">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="classname" ColumnName="classname" />
+          <ScalarProperty Name="sect" ColumnName="sect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
